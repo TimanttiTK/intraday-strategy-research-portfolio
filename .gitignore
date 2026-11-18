@@ -1,0 +1,22 @@
+# Keep only reviewable source and documentation in this public repository.
+data/
+**/data/
+backtest_results/
+**/backtest_results/
+*.csv
+*.parquet
+*.zip
+__pycache__/
+*.py[cod]
+*.log
+*.lock
+*.tmp
+stop.request
+status.json
+state.json
+last_alert.json
+ntfy.json
+.env
+.env.*
+!.env.example
+node_modules/
